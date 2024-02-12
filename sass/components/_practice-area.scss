@@ -1,0 +1,122 @@
+@import "../variable/variable";
+@import "../mixin/font";
+@import "../mixin/line-limit";
+
+.practice_area {
+  padding-top: 80px;
+  .bg-static{
+    background-color: #333333;
+    display: inline-block;
+
+
+    .area-wrapper{
+      margin: -20px 0;
+      .image{
+        width: 100%;
+        height: 330px;
+        position: relative;
+        
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        
+        .overly{
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          text-align: center;
+          transition: .4s;
+          background-color: rgba(0, 0, 0, 0.245);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          h3{
+            margin: 10px;
+            // margin: auto auto;
+            width: 100%;
+            height: 100%;
+            transition: .3s;
+            color: white;
+          }
+
+          &:hover h3{
+              
+              border: 5px solid rgb(68, 141, 237);
+              background-color: rgba(0, 0, 0, 0.259);
+          }
+          
+          // &:hover{
+          //   top: 10px;
+          //   left: 10px;
+          //   bottom: 10px;
+          //   right: 10px;
+          // }
+        }
+      }
+    }
+  }
+}
+
+.practice_item {
+  border: 1px solid $border;
+  border-radius: 5px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  transition: $transition;
+  height: 100%;
+
+  .image {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $primary;
+    margin-right: 30px;
+    transition: $transition;
+
+
+    i {
+      font-size: 30px;
+      color: $primary;
+      transition: $transition;
+
+    }
+  }
+
+  .text {
+    .title {
+      @include font(26px, 600);
+      color: $black;
+      transition: $transition;
+    }
+  }
+
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+
+    .image {
+      border-color: $white;
+
+      i {
+        color: $white;
+      }
+    }
+
+    .text {
+      .title {
+        color: $white;
+      }
+    }
+  }
+
+}
