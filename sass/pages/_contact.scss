@@ -12,25 +12,33 @@
   border-radius: 10px;
   padding: 40px 40px;
 }
+.contact_top_info_item{
+  display: flex;
+  margin-bottom: 30px;
+
+  .text{
+    padding-left: 24px;
+  }
+}
 
 .contact_area .contact_top_info .contact_top_info_item .icon {
-  width: 72px;
-  height: 72px;
-  margin-bottom: 20px;
+  width: 35px;
+  height: 35px;
+  // margin-bottom: 20px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $primary;
   color: $white;
-  font-size: 30px;
+  font-size: 16px;
 }
 
 .contact_area .contact_top_info .contact_top_info_item .text .title {
   font-size: 26px;
   font-weight: 500;
   color: $black;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact_area .contact_top_info .contact_top_info_item .text ul li {
@@ -69,12 +77,11 @@
   display: none;
 }
 
-.contact_area .contact_map_form {
-  padding-top: 80px;
-}
 
 .contact_area .contact_map_form .maps {
   height: 632px;
+  margin-bottom: -80px;
+  margin-top: 60px;
 }
 
 .contact_area .contact_map_form .maps iframe {

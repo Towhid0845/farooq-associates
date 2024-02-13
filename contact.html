@@ -21,40 +21,7 @@
 
 
 <body>
-  <!-- header top area start -->
-  <div class="header-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="contact-info">
-            <ul class="list-unstyled">
-              <li><a href="mailto:info@example.com"><i class="fas fa-envelope"></i> info@example.com</a></li>
-              <li><a href="tel:1-888-452-1505"><i class="fas fa-phone-alt"></i> 1-888-452-1505</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6 align-self-center">
-          <div class="d-flex align-items-center justify-content-end">
-            <div class="social-icon text-end">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              </ul>
-            </div>
-            <div class="header_search">
-              <div class="input_groups position-relative">
-                <input type="text" placeholder="Search">
-                <button class="search_bar"><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- header top area end -->
+
   <!-- header area start -->
   <header class="header_area">
     <nav class="navbar navbar-expand-lg d-none d-lg-block">
@@ -67,9 +34,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us <i class="fas fa-chevron-down"></i></a>
@@ -86,7 +53,10 @@
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link active" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-search" style="font-size: 15px;"></i></a>
             </li>
           </ul>
         </div>
@@ -99,7 +69,7 @@
   <!-- main area start -->
   <main>
     <!-- breadcrumb area start -->
-    <section class="breadcrumb_area">
+    <section class="breadcrumb_area" style="background: url(./images/breadcrumb.jpg);">
       <div class="container">
         <div class="text-center">
           <h1 class="title">Contact Us</h1>
@@ -114,10 +84,10 @@
 
     <!-- contact area start -->
     <section class="contact_area">
-      <div class="container">
-        <div class="contact_top_info">
+        <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6 contact_label">
+            <div class="col-lg-6 contact_top_info contact_label">
+             
               <div class="contact_top_info_item">
                 <div class="icon">
                   <i class="fas fa-envelope"></i>
@@ -130,8 +100,6 @@
                   </ul>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 contact_label mt-4 mt-sm-0">
               <div class="contact_top_info_item">
                 <div class="icon">
                   <i class="fas fa-phone-alt"></i>
@@ -144,8 +112,6 @@
                   </ul>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 contact_label mt-4 mt-lg-0">
               <div class="contact_top_info_item">
                 <div class="icon">
                   <i class="fas fa-map-marker-alt"></i>
@@ -161,67 +127,62 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="contact_map_form">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="maps">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.29273687594!2d90.40638547605866!3d23.77258788792274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c779bd6ee47f%3A0x73b4315f5f970bda!2sNogor%20Solutions%20Limited!5e0!3m2!1sen!2sbd!4v1703414843301!5m2!1sen!2sbd"
-                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-5 mt-lg-0">
-            <div class="forms px-4">
-              <div class="info">
-                <h3 class="title reveal-type"> Keep In Touch </h3>
-                <p class="reveal-type">In nec libero luctus, aliquet turpis at, vehicula nisi. Cras eget mauris in nisl
-                  tempus lobortis.</p>
-              </div>
-              <form action="#">
-                <div class="row gy-2">
-                  <div class="col-lg-6 col-sm-6">
-                    <div class="input_groups">
-                      <label>Full Name <sup class="text-danger">*</sup></label>
-                      <input type="text" placeholder="Full name">
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-sm-6">
-                    <div class="input_groups">
-                      <label>Email Address</label>
-                      <input type="text" placeholder="Email address">
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-sm-6">
-                    <div class="input_groups">
-                      <label>Phone Number</label>
-                      <input type="text" placeholder="Phone number">
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-sm-6">
-                    <div class="input_groups">
-                      <label>Subject</label>
-                      <input type="text" placeholder="Subject">
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="input_groups">
-                      <label>Your Message</label>
-                      <textarea placeholder="Your message" rows="10"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <button class="submit_btn mt-2 reveal-type">Sent Message</button>
-                  </div>
+            <div class="col-lg-6 contact_map_form">
+              <div class="forms px-4">
+                <div class="info">
+                  <h3 class="title reveal-type"> Keep In Touch </h3>
+                  <p class="reveal-type">In nec libero luctus, aliquet turpis at, vehicula nisi. Cras eget mauris in nisl
+                    tempus lobortis.</p>
                 </div>
-              </form>
+                <form action="#">
+                  <div class="row gy-2">
+                    <div class="col-lg-6 col-sm-6">
+                      <div class="input_groups">
+                        <label>Full Name <sup class="text-danger">*</sup></label>
+                        <input type="text" placeholder="Full name">
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                      <div class="input_groups">
+                        <label>Email Address</label>
+                        <input type="text" placeholder="Email address">
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                      <div class="input_groups">
+                        <label>Phone Number</label>
+                        <input type="text" placeholder="Phone number">
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                      <div class="input_groups">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Subject">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="input_groups">
+                        <label>Your Message</label>
+                        <textarea placeholder="Your message" rows="10"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <button class="submit_btn mt-2 reveal-type">Sent Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        <div class="contact_map_form">
+          <div class="maps">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.29273687594!2d90.40638547605866!3d23.77258788792274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c779bd6ee47f%3A0x73b4315f5f970bda!2sNogor%20Solutions%20Limited!5e0!3m2!1sen!2sbd!4v1703414843301!5m2!1sen!2sbd"
+                  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        </div>
     </section>
     <!-- contact area end -->
   </main>
@@ -323,7 +284,7 @@
             <div class="col-lg-12 align-self-center">
               <div class="copyright-text text-center">
                 <p>Copyright © 2024 | Farooq & Associates </p>
-                <p class="mt-2">Powered by <a href="#">Boomerang Digital</a></p>
+                <p class="mt-2">Powered by <a href="#">Nogor Solutions Limited</a></p>
               </div>
             </div>
           </div>

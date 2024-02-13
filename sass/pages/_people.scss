@@ -106,10 +106,12 @@
           input {
             box-shadow: none !important;
             border-radius: 0;
-            border: 1px solid transparent;
+            border: 1px solid $white;
+            background-color: $primary;
 
             &:checked {
               border-color: $white;
+              background-color: $primary;
             }
           }
 
@@ -183,19 +185,21 @@
         }
 
         .text {
-          height: 100%;
-          padding: 24px;
+          height: 250px;
+          padding: 24px 40px;
+          display: flex;
+          flex-direction: column;
 
           .title {
-            @include font(24px, 700);
-            color: $black;
-            margin-bottom: 5px;
+            @include font(24px, 500);
+            color: $primary;
+            margin-bottom: 10px;
           }
 
           .subtitle {
             @include font(15px, 400);
             color: $black;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
           }
 
           .common_btn {
@@ -209,5 +213,17 @@
         }
       }
     }
+  }
+}
+
+.view_profile{
+  @include font(18px,700);
+  color: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  i{
+    margin-left: 10px;
   }
 }

@@ -16,13 +16,27 @@
 
   .text {
     .title {
-      @include font(30px, 700);
+      @include font(32px, 500);
       margin-bottom: 5px;
     }
 
     .subtitle {
-      @include font(26px, 700);
+      @include font(28px, 500);
       margin-bottom: 15px;
+    }
+  }
+
+  .bg-cng{
+    background-color: transparent !important;
+    border: 2px solid rgba(51,51,51,.7);
+    color: rgba(51,51,51,.7);
+    &::before{
+      background-color: transparent !important;
+    }
+    &:hover{
+      border: 2px solid $primary;
+      color: $white;
+      background-color: $primary !important;
     }
   }
 }

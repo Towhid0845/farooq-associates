@@ -1,0 +1,23 @@
+@import "../variable/variable";
+@import "../mixin/font";
+@import "../mixin/line-limit";
+
+.foreign_investment_area {
+  // margin-top: 80px;
+  padding: 60px 0;
+  background-color: $bg;
+  background-size: cover !important;
+
+  .image{
+    border: 1px solid $primary;
+    padding: 14px;
+    background-color: $white;
+  }
+
+  .text {
+    .title {
+      @include font(32px, 500);
+      margin-bottom: 45px;
+    }
+  }
+}

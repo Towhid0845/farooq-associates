@@ -19,42 +19,7 @@
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-
 <body>
-  <!-- header top area start -->
-  <div class="header-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="contact-info">
-            <ul class="list-unstyled">
-              <li><a href="mailto:info@example.com"><i class="fas fa-envelope"></i> info@example.com</a></li>
-              <li><a href="tel:1-888-452-1505"><i class="fas fa-phone-alt"></i> 1-888-452-1505</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6 align-self-center">
-          <div class="d-flex align-items-center justify-content-end">
-            <div class="social-icon text-end">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              </ul>
-            </div>
-            <div class="header_search">
-              <div class="input_groups position-relative">
-                <input type="text" placeholder="Search">
-                <button class="search_bar"><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- header top area end -->
   <!-- header area start -->
   <header class="header_area">
     <nav class="navbar navbar-expand-lg d-none d-lg-block">
@@ -67,12 +32,12 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us <i class="fas fa-chevron-down"></i></a>
+              <a class="nav-link " href="#">About Us <i class="fas fa-chevron-down"></i></a>
               <ul class="list-unstyled sub-menu">
                 <li><a href="about.html">About</a></li>
                 <li><a href="founder-message.html">Message from the Founder</a></li>
@@ -80,13 +45,16 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="areas-of-practice.html">Areas of Practice </a>
+              <a class="nav-link active" href="areas-of-practice.html">Areas of Practice </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-search" style="font-size: 15px;"></i></a>
             </li>
           </ul>
         </div>
@@ -95,11 +63,10 @@
   </header>
   <!-- header area end -->
 
-
   <!-- main area start -->
   <main>
     <!-- breadcrumb area start -->
-    <section class="breadcrumb_area">
+    <section class="breadcrumb_area" style="background: url(./images/breadcrumb.jpg);">
       <div class="container">
         <div class="text-center">
           <h1 class="title">Areas of Practice</h1>
@@ -113,133 +80,132 @@
     <!-- breadcrumb area end -->
 
     <!-- practice area start -->
-    <section class="practice_area">
+    <section class="practice_area practice_area_page">
       <div class="container">
-        <div class="row g-4">
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Structured and Project Finance</h4>
-                </div>
+        <div class="row area-wrapper">
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice1.jpg" alt="farooq">
+              <div class="overly">
+                <h3>
+                  <span>
+                    Technology, Media And Telecommunication
+                  </span>
+                </h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Regulatory Affairs of Public Bodies</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice2.jpg" alt="farooq">
+              <div class="overly">
+                <h3><span>Employment And Labor</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Intellectual Property</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice3.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Customs And Taxation</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Insolvency and Debt Recovery</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice4.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Power And Energy</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Shipping and Maritime</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice5.jpg" alt="farooq">
+              <div class="overly">
+                <h3>
+                  <span>
+                    Public-Private Partnerships
+                  </span>
+                </h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Litigation, Arbitration & Dispute Settlement</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice6.jpg" alt="farooq">
+              <div class="overly">
+                <h3><span>Structured and Project Finance</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Structured and Project Finance</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice7.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Corporate</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Regulatory Affairs of Public Bodies</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice8.png" alt="farooq">
+              <div class="overly">
+                  <h3><span>Capital Market</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Intellectual Property</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice9.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Corporate Finance</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Insolvency and Debt Recovery</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice10.png" alt="farooq">
+              <div class="overly">
+                  <h3><span>Insolvency and Debt Recovery</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Shipping and Maritime</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice11.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Shipping and Maritime</span></h3>
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
-            <a href="practice_details.html" class="d-block w-100">
-              <div class="practice_item">
-                <div class="image"><i class="fas fa-wallet"></i></div>
-                <div class="text">
-                  <h4 class="title">Litigation, Arbitration & Dispute Settlement</h4>
-                </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice12.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Intellectual Property</span></h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice13.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Litigation, Arbitration & Dispute Settlement</span></h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-3 pb-4">
+            <a class="image" href="practice_details.html">
+              <img src="./images/practice14.jpg" alt="farooq">
+              <div class="overly">
+                  <h3><span>Regulatory Affairs of Public Bodies</span></h3>
               </div>
             </a>
           </div>
         </div>
       </div>
     </section>
-    <!-- practice area end -->
 
   </main>
   <!-- main area end -->
@@ -340,7 +306,7 @@
             <div class="col-lg-12 align-self-center">
               <div class="copyright-text text-center">
                 <p>Copyright © 2024 | Farooq & Associates </p>
-                <p class="mt-2">Powered by <a href="#">Boomerang Digital</a></p>
+                <p class="mt-2">Powered by <a href="#">Nogor Solutions Limited</a></p>
               </div>
             </div>
           </div>
