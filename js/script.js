@@ -129,9 +129,9 @@ $(function () {
     $('.mobile-menu-main').removeClass('show-mobile-menu')
   })
 
-  $('.sub-menu ul').hide();
-  $(".sub-menu a").click(function () {
-    $(this).parent(".sub-menu").children("ul").slideToggle("100");
+  $('.mobile-sub-menu ul').hide();
+  $(".mobile-sub-menu a").click(function () {
+    $(this).parent(".mobile-sub-menu").children("ul").slideToggle("100");
     $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
   });
 

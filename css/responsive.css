@@ -1,3 +1,82 @@
-
+@media (min-width: 576px) {
+  .common_btn {
+    padding: 8px 20px;
+  }
+  .banner_area .item {
+    height: 512px;
+  }
+  .slideshow .item .item_text {
+    padding-top: 70px;
+  }
+  .banner_area .icon {
+    width: 40px;
+    height: 40px;
+    top: 90%;
+  }
+  .practice_area .area-wrapper .image .overly h3 span {
+    width: 60%;
+  }
+  .founder_messages_area .image {
+    padding: 7px;
+  }
+  .footer_area .footer-bg .footer-widget .footer-title {
+    margin-bottom: 16px;
+  }
+  .footer_area .footer-bg .footer-widget .footer-title {
+    font-size: 22px;
+  }
+  .footer_area .footer-bg {
+    padding: 60px 0 30px 0;
+  }
+}
+@media (min-width: 768px) {
+  .practice_area .area-wrapper .image .overly h3 span {
+    width: 47%;
+  }
+}
+@media (min-width: 992px) {
+  .common_btn {
+    padding: 10px 30px;
+  }
+  .navbar-brand img {
+    width: 80px;
+  }
+  .banner_area .item {
+    height: 650px;
+  }
+  .slideshow .item .item_text {
+    padding-top: 180px;
+  }
+  .practice_area .area-wrapper .image .overly h3 span {
+    width: 50%;
+  }
+  .footer_area .footer-bg .footer-widget .footer-title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-brand img {
+    width: 115px;
+  }
+  .banner_area .icon {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+  }
+  .founder_messages_area .image {
+    padding: 10px;
+  }
+  .footer_area .footer-bg .footer-widget .footer-title {
+    margin-bottom: 24px;
+  }
+  .footer_area .footer-bg .footer-widget .footer-title {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1400px) {
+  .founder_messages_area .image {
+    padding: 12px;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */
