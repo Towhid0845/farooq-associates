@@ -5,6 +5,8 @@
 .breadcrumb_area {
   background-color: $primary;
   padding: 130px 0 70px;
+  height: 285px;
+  background-position: center !important;
 
   .title {
     @include font(40px, 900);

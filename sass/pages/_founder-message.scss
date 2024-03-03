@@ -4,12 +4,13 @@
 
 .area_2 {
   margin-top: 0;
-
+  background-color: $white;
   .founder_main {
 
     .image {
       float: left;
-      width: 290px;
+      // width: 290px;
+      margin-bottom: 24px;
       margin-right: 30px;
     }
     .text{

@@ -1,4 +1,120 @@
+@media (max-width: 575px) {
+  .people_details .image .img {
+    max-width: 180px;
+    padding: 7px;
+  }
+  .people_details .image .info .info_item .main_title {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .practice_area_page .area-wrapper .image {
+    height: 250px;
+  }
+  .project_details_area {
+    padding-top: 60px;
+  }
+  .people_area .top_filter_options .people_main .people_item .text {
+    height: 230px;
+    padding: 25px;
+  }
+  .people_area .top_filter_options .people_main .people_item .image {
+    height: 350px;
+  }
+  .contact_area {
+    padding: 0;
+  }
+  .contact_area .contact_top_info {
+    border: unset;
+    border-radius: 10px;
+    padding: 40px 24px;
+  }
+  .about_area {
+    padding-top: 50px;
+  }
+  .common_btn {
+    padding: 8px 20px;
+  }
+  .banner_area .item {
+    height: 512px;
+  }
+  .slideshow .item .item_text {
+    padding-top: 70px;
+  }
+  .banner_area .icon {
+    width: 40px;
+    height: 40px;
+    top: 90%;
+  }
+  .practice_area {
+    padding-top: 50px;
+    margin-bottom: 60px;
+  }
+  .practice_area .area-wrapper .image .overly h3 span {
+    width: 60%;
+  }
+  .foreign_investment_area {
+    padding: 50px 0;
+  }
+  .projects_area {
+    padding-top: 60px;
+  }
+  .founder_messages_area {
+    margin-top: 60px;
+    padding: 50px 0;
+  }
+  .founder_messages_area .image {
+    padding: 7px;
+  }
+  .footer_area .footer-bg .footer-widget .footer-title {
+    margin-bottom: 16px;
+  }
+  .footer_area .footer-bg .footer-widget .footer-title {
+    font-size: 22px;
+  }
+  .footer_area .footer-bg {
+    padding: 40px 0 30px 0;
+  }
+  .footer_area .footer-bg .copyright {
+    margin-top: 20px;
+  }
+  .footer_area .footer-bg {
+    margin-top: 60px;
+  }
+  .area_2 .founder_main .image {
+    width: 220px;
+  }
+  .area_2 {
+    margin-top: 0px;
+  }
+}
 @media (min-width: 576px) {
+  .people_details .image .img {
+    max-width: 180px;
+    padding: 7px;
+  }
+  .people_details .image .info .info_item .main_title {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .practice_area_page .area-wrapper .image {
+    height: 250px;
+  }
+  .people_area .top_filter_options .people_main .people_item .text {
+    height: 230px;
+    padding: 25px;
+  }
+  .people_details {
+    padding-top: 60px;
+  }
+  .project_details_area {
+    padding-top: 60px;
+  }
+  .area_2 .founder_main .image {
+    width: 220px;
+  }
+  .about_area {
+    padding-top: 60px;
+  }
   .common_btn {
     padding: 8px 20px;
   }
@@ -28,13 +144,40 @@
   .footer_area .footer-bg {
     padding: 60px 0 30px 0;
   }
+  .footer_area .footer-bg {
+    margin-top: 60px;
+  }
 }
 @media (min-width: 768px) {
+  .people_details .image .info .info_item .main_title {
+    font-size: 28px;
+  }
+  .contact_area .contact_map_form .forms {
+    max-width: 100%;
+  }
+  .practice_area_page .area-wrapper .image {
+    height: 260px;
+  }
   .practice_area .area-wrapper .image .overly h3 span {
     width: 47%;
   }
 }
 @media (min-width: 992px) {
+  .people_details .image .img {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .people_details .image .info {
+    border: 1px solid #ccc;
+    padding: 24px;
+  }
+  .people_details .image .info .info_item .main_title {
+    font-size: 32px;
+    padding-bottom: 12px;
+  }
+  .area_2 .founder_main .image {
+    width: 250px;
+  }
   .common_btn {
     padding: 10px 30px;
   }
@@ -55,6 +198,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .area_2 .founder_main .image {
+    width: 280px;
+  }
   .navbar-brand img {
     width: 115px;
   }

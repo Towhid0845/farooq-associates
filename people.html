@@ -19,11 +19,10 @@
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-
 <body>
 
   <!-- header area start -->
-  <header class="header_area">
+  <header class="header_area position-relative">
     <nav class="navbar navbar-expand-lg d-none d-lg-block">
       <div class="container ps-0">
         <a class="navbar-brand me-0" href="index.html">
@@ -62,10 +61,62 @@
         </div>
       </div>
     </nav>
+    <div class="d-lg-none position-absolute start-0 end-0">
+      <div class="row justify-content-center py-3 py-lg-4">
+        <div class="col-12">
+          <div class="logo-wrapper w-100 d-flex align-items-center">
+            <div class="sm-logo me-auto ms-4">
+              <a href="index.html">
+                <img src="./images/sm-logo.png" alt="farooq">
+              </a>
+            </div>
+            <div class="search pe-4">
+              <a href="search.html" class="bars">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </div>
+            <div class="mobile-topbar me-4">
+              <div class="bars">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <!-- header area end -->
 
+ <!-- mobile navbar part start -->
+ <div class="mobile-menu d-lg-none">
+  <div class="mobile-menu-overlay"></div>
 
+  <div class="mobile-menu-main">
+  <div class="close-m-menu text-end"><i class="fas fa-times"></i></div>
+  <div class="menu-body">
+  <div class="menu-list">
+    <ul class="list-unstyled">
+      <li class="mobile-sub-menu">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="mobile-sub-menu">
+        <a href="#">About Us<i class="fas fa-sort-down float-end"></i></a>
+        <ul class="list-unstyled">
+          <li><a href="about.html">About</a></li>
+          <li><a href="founder-message.html">Message from the Founder</a></li>
+          <li><a href="people.html">People</a></li>
+        </ul>
+      </li>
+      <li class="mobile-sub-menu"><a href="areas-of-practice.html">Areas of Practice</a></li>
+      <li class="mobile-sub-menu"><a href="projects.html">Projects</a></li>
+      <li class="mobile-sub-menu"><a href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+  </div>
+</div>
+<!-- mobile navbar part end -->
   <!-- main area start -->
   <main>
     <!-- breadcrumb area start -->
@@ -88,12 +139,12 @@
         <div class="row">
           <div class="col-lg-11">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-md-3 col-sm-5">
                 <div class="image">
-                  <img src="images/founder.jpeg" alt="founder" class="img-fluid w-100">
+                  <img src="images/team/M.Ozair Farooq.jpeg" alt="founder" class="img-fluid w-100">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-md-9">
                 <div class="text ps-lg-4">
                   <h3 class="title">Our Founder</h3>
                   <h4 class="subtitle">Mohammad Ozair Farooq</h4>
@@ -121,12 +172,12 @@
         <div class="row">
           <div class="col-lg-11">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-md-3 col-sm-5">
                 <div class="image">
-                  <img src="images/M-IMTIAZ-FAROOQ-1-250x250.jpeg" alt="founder" class="img-fluid w-100">
+                  <img src="images/team/M IMTIAZ FAROOQ.jpeg" alt="founder" class="img-fluid w-100">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-md-9">
                 <div class="text ps-lg-4">
                   <h3 class="title">Head of Chambers</h3>
                   <h4 class="subtitle">M. Imtiaz Farooq</h4>
@@ -597,11 +648,11 @@
               <!-- <button class="clear_filter">Clear all fields <i class="fa fa-times"></i></button> -->
             </div>
             <div class="row g-4">
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-lg-4 col-sm-6">
                 <a href="people_details.html" class="d-block w-100">
                   <div class="people_item">
                     <div class="image">
-                      <img src="images/M.-FAISAL-ISLAM-1-250x250.jpeg" alt="pe" class="img-fluid w-100">
+                      <img src="images/team/M. FAISAL ISLAM.jpeg" alt="pe" class="img-fluid w-100">
                     </div>
                     <div class="text text-center">
                       <h4 class="title">M. Faisal Islam</h4>
@@ -614,11 +665,11 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-lg-4 col-sm-6">
                 <a href="people_details.html" class="d-block w-100">
                   <div class="people_item">
                     <div class="image">
-                      <img src="images/Arunima-Dutta-Aurni-250x250.jpg" alt="pe" class="img-fluid w-100">
+                      <img src="images/team/ARUNIMA DUTTA AURNI.jpeg" alt="pe" class="img-fluid w-100">
                     </div>
                     <div class="text text-center">
                       <h4 class="title">Arunima Dutta Aurni</h4>
@@ -631,11 +682,11 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-lg-4 col-sm-6">
                 <a href="people_details.html" class="d-block w-100">
                   <div class="people_item">
                     <div class="image">
-                      <img src="images/Sharina-Muzahid-Chowdhury-1-1-262x262.jpeg" alt="pe" class="img-fluid w-100">
+                      <img src="images/team/Sharina Muzahid Chowdhury .jpeg" alt="pe" class="img-fluid w-100">
                     </div>
                     <div class="text text-center">
                       <h4 class="title">Sharina Muzahid Chowdhury</h4>
@@ -648,7 +699,55 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-lg-4 col-sm-6">
+                <a href="people_details.html" class="d-block w-100">
+                  <div class="people_item">
+                    <div class="image">
+                      <img src="images/team/MD ASHIKUR RAHMAN.jpeg" alt="pe" class="img-fluid w-100">
+                    </div>
+                    <div class="text text-center">
+                      <h4 class="title">MD. Ashikur Rahman </h4>
+                      <span class="subtitle">Senior Associate</span>
+                      <div class="mt-auto">
+                        <h4 href="people-details.html" class="view_profile"><span>View Profile</span> <i class="fa-solid fa-arrow-right-long"></i></h4>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6">
+                <a href="people_details.html" class="d-block w-100">
+                  <div class="people_item">
+                    <div class="image">
+                      <img src="images/team/DRHOBO CHAKRABORTY.jpeg" alt="pe" class="img-fluid w-100">
+                    </div>
+                    <div class="text text-center">
+                      <h4 class="title">Drhobo Chakraborty</h4>
+                      <span class="subtitle">Senior Associate</span>
+                      <div class="mt-auto">
+                        <h4 href="people-details.html" class="view_profile"><span>View Profile</span> <i class="fa-solid fa-arrow-right-long"></i></h4>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6">
+                <a href="people_details.html" class="d-block w-100">
+                  <div class="people_item">
+                    <div class="image">
+                      <img src="images/team/HUMAYRA NOOR.jpeg" alt="pe" class="img-fluid w-100">
+                    </div>
+                    <div class="text text-center">
+                      <h4 class="title">Humayra Noor</h4>
+                      <span class="subtitle">Senior Associate</span>
+                      <div class="mt-auto">
+                        <h4 href="people-details.html" class="view_profile"><span>View Profile</span> <i class="fa-solid fa-arrow-right-long"></i></h4>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6">
                 <a href="people_details.html" class="d-block w-100">
                   <div class="people_item">
                     <div class="image">
@@ -664,55 +763,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-3">
-                <a href="people_details.html" class="d-block w-100">
-                  <div class="people_item">
-                    <div class="image">
-                      <img src="images/laywer.jpg" alt="pe" class="img-fluid w-100">
-                    </div>
-                    <div class="text text-center">
-                      <h4 class="title">Tom Butcher</h4>
-                      <span class="subtitle">Partner</span>
-                      <div class="mt-auto">
-                        <h4 href="people-details.html" class="view_profile"><span>View Profile</span> <i class="fa-solid fa-arrow-right-long"></i></h4>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col-lg-3">
-                <a href="people_details.html" class="d-block w-100">
-                  <div class="people_item">
-                    <div class="image">
-                      <img src="images/laywer.jpg" alt="pe" class="img-fluid w-100">
-                    </div>
-                    <div class="text text-center">
-                      <h4 class="title">Tom Butcher</h4>
-                      <span class="subtitle">Partner</span>
-                      <div class="mt-auto">
-                        <h4 href="people-details.html" class="view_profile"><span>View Profile</span> <i class="fa-solid fa-arrow-right-long"></i></h4>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col-lg-3">
-                <a href="people_details.html" class="d-block w-100">
-                  <div class="people_item">
-                    <div class="image">
-                      <img src="images/laywer.jpg" alt="pe" class="img-fluid w-100">
-                    </div>
-                    <div class="text text-center">
-                      <h4 class="title">Tom Butcher</h4>
-                      <span class="subtitle">Partner</span>
-                      <div class="mt-auto">
-                        <h4 href="people-details.html" class="view_profile"><span>View Profile</span> <i class="fa-solid fa-arrow-right-long"></i></h4>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-lg-4 col-sm-6">
                 <a href="people_details.html" class="d-block w-100">
                   <div class="people_item">
                     <div class="image">
@@ -749,11 +800,11 @@
 
   <!-- footer part start -->
   <footer class="footer_area">
-    <div class="footer-bg mt-0u">
+    <div class="footer-bg">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="footer-widget pe-4">
+            <div class="footer-widget">
               <h3 class="footer-title">Main Office</h3>
               <div class="contact_us">
                 <ul class="list-unstyled">
@@ -783,7 +834,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="footer-widget px-5">
+            <div class="footer-widget ps-lg-5 pt-4 pt-lg-0">
               <h3 class="footer-title">Supreme Court Office</h3>
               <div class="contact_us">
                 <ul class="list-unstyled">
@@ -808,11 +859,11 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="footer-widget ps-5">
+            <div class="footer-widget ps-lg-5 pt-4 pt-lg-0">
               <h3 class="footer-title">Accessibility</h3>
               <p>There is step-free access to chambers from the ground floor.</p>
             </div>
-            <div class="footer-widget mt-4 ps-5">
+            <div class="footer-widget ps-lg-5 pt-4">
               <h3 class="footer-title">Legal</h3>
               <ul class="list-unstyled services">
                 <li><a href="#">Privacy Policy</a></li>

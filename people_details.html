@@ -22,7 +22,7 @@
 
 <body>
   <!-- header area start -->
-  <header class="header_area">
+  <header class="header_area position-relative">
     <nav class="navbar navbar-expand-lg d-none d-lg-block">
       <div class="container ps-0">
         <a class="navbar-brand me-0" href="index.html">
@@ -61,9 +61,61 @@
         </div>
       </div>
     </nav>
+    <div class="d-lg-none position-absolute start-0 end-0">
+      <div class="row justify-content-center py-3 py-lg-4">
+        <div class="col-12">
+          <div class="logo-wrapper w-100 d-flex align-items-center">
+            <div class="sm-logo me-auto ms-4">
+              <a href="index.html">
+                <img src="./images/sm-logo.png" alt="farooq">
+              </a>
+            </div>
+            <div class="search pe-4">
+              <a href="search.html" class="bars">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </div>
+            <div class="mobile-topbar me-4">
+              <div class="bars">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <!-- header area end -->
+ <!-- mobile navbar part start -->
+ <div class="mobile-menu d-lg-none">
+  <div class="mobile-menu-overlay"></div>
 
+  <div class="mobile-menu-main">
+  <div class="close-m-menu text-end"><i class="fas fa-times"></i></div>
+  <div class="menu-body">
+  <div class="menu-list">
+    <ul class="list-unstyled">
+      <li class="mobile-sub-menu">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="mobile-sub-menu">
+        <a href="#">About Us<i class="fas fa-sort-down float-end"></i></a>
+        <ul class="list-unstyled">
+          <li><a href="about.html">About</a></li>
+          <li><a href="founder-message.html">Message from the Founder</a></li>
+          <li><a href="people.html">People</a></li>
+        </ul>
+      </li>
+      <li class="mobile-sub-menu"><a href="areas-of-practice.html">Areas of Practice</a></li>
+      <li class="mobile-sub-menu"><a href="projects.html">Projects</a></li>
+      <li class="mobile-sub-menu"><a href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+  </div>
+</div>
+<!-- mobile navbar part end -->
 
   <!-- main area start -->
   <main>
@@ -84,102 +136,115 @@
     <!-- people details area start -->
     <section class="people_details">
       <div class="container">
-        <div class="people_details_main">
-          <div class="image">
-            <div class="img">
-              <img src="images/founder.jpeg" alt="founder" class="img-fluid w-100">
-            </div>
-            <div class="info">
-              <ul class="list-unstyled contact_info">
-                <li><a href="tel:01478785958"><i class="fa fa-phone" aria-hidden="true"></i> 01478785958</a></li>
-                <li><a href="mailto:info@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> info@gmail.com</a>
-                </li>
-              </ul>
-              <div class="info_item">
-                <h4 class="main_title">Expertise</h4>
-                <p class="subtitle">Practices</p>
-                <div class="other_info">
-                  <ul class="list-unstyled">
-                    <li><a href=""> Capital Markets
-                      </a></li>
-                    <li>
-                      <a href="">Corporate and M&A </a>
-                    </li>
-                    <li><a href="">
-                        Corporate Governance and Compliance</a></li>
-                  </ul>
-                </div>
-                <p class="subtitle">Sectors</p>
-                <div class="other_info">
-                  <ul class="list-unstyled">
-                    <li><a href=""> Energy
-                      </a></li>
-                    <li>
-                      <a href="">Private Capital </a>
-                    </li>
-                  </ul>
-                </div>
+        <div class="row people_details_main">
+          <div class="col-lg-4">
+            <div class="image">
+              <div class="img">
+                <img src="images/founder.jpeg" alt="founder" class="img-fluid w-100">
               </div>
-              <div class="info_item">
-                <h4 class="main_title">Office</h4>
-                <p class="subtitle">Abu Dhabi</p>
-                <div class="other_info">
-                  <ul class="list-unstyled">
-                    <li>5th Floor, Al Mamoura Building B, Muroor Road
-                      Abu Dhabi
-                      P.O. Box 7907</li>
-                  </ul>
-                  <a href="#" class="text-black mt-2 fw-medium text-decoration-underline">View Office</a>
-                </div>
-              </div>
-              <div class="info_item">
-                <h4 class="main_title">Qualifications</h4>
-                <p class="subtitle">Professional</p>
-                <div class="other_info">
-                  <ul class="list-unstyled">
-                    <li>Admitted as a solicitor, England and Wales, 1999 </li>
-                  </ul>
-                </div>
-                <p class="subtitle">Academic</p>
-                <div class="other_info">
-                  <ul class="list-unstyled">
-                    <li>LLB, Law, University of Southampton, 1996</li>
-                    <li>LPC, The College Of Law, Guildford, 1997</li>
-                  </ul>
+              <div class="info d-flex mt-4">
+                <div class="row">
+                  <div class="col-6 col-lg-12">
+                    <div class="info_item">
+                      <h4 class="main_title">Contact</h4>
+                      <ul class="list-unstyled contact_info">
+                        <li><a href="tel:01478785958"><i class="fa fa-phone" aria-hidden="true"></i> 01478785958</a></li>
+                        <li><a href="mailto:info@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> info@gmail.com</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="info_item">
+                      <h4 class="main_title">Expertise</h4>
+                      <p class="subtitle">Practices</p>
+                      <div class="other_info">
+                        <ul class="list-unstyled">
+                          <li><a href=""> Capital Markets
+                            </a></li>
+                          <li>
+                            <a href="">Corporate and M&A </a>
+                          </li>
+                          <li><a href="">
+                              Corporate Governance and Compliance</a></li>
+                        </ul>
+                      </div>
+                      <p class="subtitle">Sectors</p>
+                      <div class="other_info">
+                        <ul class="list-unstyled">
+                          <li><a href=""> Energy
+                            </a></li>
+                          <li>
+                            <a href="">Private Capital </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-12">
+                    <div class="info_item">
+                      <h4 class="main_title">Office</h4>
+                      <p class="subtitle">Abu Dhabi</p>
+                      <div class="other_info">
+                        <ul class="list-unstyled">
+                          <li>5th Floor, Al Mamoura Building B, Muroor Road
+                            Abu Dhabi
+                            P.O. Box 7907</li>
+                        </ul>
+                        <a href="#" class="text-black mt-2 fw-medium text-decoration-underline">View Office</a>
+                      </div>
+                    </div>
+                    <div class="info_item">
+                      <h4 class="main_title">Qualifications</h4>
+                      <p class="subtitle">Professional</p>
+                      <div class="other_info">
+                        <ul class="list-unstyled">
+                          <li>Admitted as a solicitor, England and Wales, 1999 </li>
+                        </ul>
+                      </div>
+                      <p class="subtitle">Academic</p>
+                      <div class="other_info">
+                        <ul class="list-unstyled">
+                          <li>LLB, Law, University of Southampton, 1996</li>
+                          <li>LPC, The College Of Law, Guildford, 1997</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="text">
-            <h3 class="title">Founder</h3>
-            <h4 class="subtitle">Mohammad Ozair Farooq</h4>
-            <p>Mr. Mohammad Ozair Farooq established these Chambers in the year of 1973. Within a few short years
-              after his entry into the profession, he earned the reputation of being a quick-witted lawyer with fierce
-              intellectual rigor and a striking capacity of swift but thorough rationalization. As his portfolio of
-              experience broadened, he garnered esteem for his ability to read and comprehend the courts, intuitively
-              and accurately interpret legislation and harness his leviathan intellect to tackle the facts of any
-              case.</p>
-            <p>Mr. Farooq conducted numerous civil and criminal trials all over the country and at the same time pursued
-              with vigor his role as a leading Senior Counsel in the appellate courts. He established a long history of
-              success in commercial disputes, international trade disputes, insurance/reinsurance claims, shipping and
-              financial proceedings, as well as criminal litigation and more.</p>
-            <p>Reported judgments have been published for numerous cases in which he was counsel before the Appellate
-              Division of the Supreme Court of Bangladesh. His body of work leaves behind a legacy that has served to
-              establish, define and reform numerous provisions of the law and methods of interpretation of legislation.
-              The Honorable Courts regularly commended Mr Ozair Farooq for his excellent work and steadfast used of fine
-              judgment.</p>
-            <p>His rapport with his clientele was exemplary. His client-oriented approach and an open door policy had
-              earned him the reputation of being the ‘Peoples Lawyer’. This dedication has been the corner-stone of our
-              client-centered values in Chambers ever since. Mr. Farooq enjoyed a thriving international practice
-              representing wide-ranging clients in Singapore, Taiwan, Japan, the UK, US and others. His excellence in
-              negotiation and conducting commercial arbitrations earned his fame internationally. He also acted as
-              arbitrator in various commercial disputes involving multi-nationals and Government Departments.</p>
-            <p>For his endeavors in strengthening and preservation of professional values across the Bangladesh Bar, he
-              was elected as a Member of the Bangladesh Bar Council by the Lawyers’ community of Bangladesh foe the term
-              of 1998 – 2001.</p>
-              <p>Mr. Farooq was enrolled as a Senior Advocate of the Supreme Court of Bangladesh in1998 in recognition of his unparalleled advocacy skills. In 1994-95 he was elected as the Secretary of Bangladesh Supreme Court Bar Association and in 2002 – 03 he was elected as the President of the same Association. In such capacities he exhibited dynamic leadership for the cause of the rule of law, independence, supremacy and separation of judiciary and establishment of democracy and human rights.</p>
-              <p>Mr Farooq not only excelled in his professional life but rendered invaluable services to society. As a member of the Press Council of Bangladesh during 1998 – 2001, he played a dynamic role in the process of reforming Media Law in Bangladesh. His continuous commitment towards poverty alleviation and social work through the international charity and service organization ROTARY was acknowledged by his election to the prestigious position of Governor of ROTARY in Bangladesh.</p>
-              
+          <div class="col-lg-8">
+            <div class="text">
+              <h3 class="title">Founder</h3>
+              <h4 class="subtitle">Mohammad Ozair Farooq</h4>
+              <p>Mr. Mohammad Ozair Farooq established these Chambers in the year of 1973. Within a few short years
+                after his entry into the profession, he earned the reputation of being a quick-witted lawyer with fierce
+                intellectual rigor and a striking capacity of swift but thorough rationalization. As his portfolio of
+                experience broadened, he garnered esteem for his ability to read and comprehend the courts, intuitively
+                and accurately interpret legislation and harness his leviathan intellect to tackle the facts of any
+                case.</p>
+              <p>Mr. Farooq conducted numerous civil and criminal trials all over the country and at the same time pursued
+                with vigor his role as a leading Senior Counsel in the appellate courts. He established a long history of
+                success in commercial disputes, international trade disputes, insurance/reinsurance claims, shipping and
+                financial proceedings, as well as criminal litigation and more.</p>
+              <p>Reported judgments have been published for numerous cases in which he was counsel before the Appellate
+                Division of the Supreme Court of Bangladesh. His body of work leaves behind a legacy that has served to
+                establish, define and reform numerous provisions of the law and methods of interpretation of legislation.
+                The Honorable Courts regularly commended Mr Ozair Farooq for his excellent work and steadfast used of fine
+                judgment.</p>
+              <p>His rapport with his clientele was exemplary. His client-oriented approach and an open door policy had
+                earned him the reputation of being the ‘Peoples Lawyer’. This dedication has been the corner-stone of our
+                client-centered values in Chambers ever since. Mr. Farooq enjoyed a thriving international practice
+                representing wide-ranging clients in Singapore, Taiwan, Japan, the UK, US and others. His excellence in
+                negotiation and conducting commercial arbitrations earned his fame internationally. He also acted as
+                arbitrator in various commercial disputes involving multi-nationals and Government Departments.</p>
+              <p>For his endeavors in strengthening and preservation of professional values across the Bangladesh Bar, he
+                was elected as a Member of the Bangladesh Bar Council by the Lawyers’ community of Bangladesh foe the term
+                of 1998 – 2001.</p>
+                <p>Mr. Farooq was enrolled as a Senior Advocate of the Supreme Court of Bangladesh in1998 in recognition of his unparalleled advocacy skills. In 1994-95 he was elected as the Secretary of Bangladesh Supreme Court Bar Association and in 2002 – 03 he was elected as the President of the same Association. In such capacities he exhibited dynamic leadership for the cause of the rule of law, independence, supremacy and separation of judiciary and establishment of democracy and human rights.</p>
+                <p>Mr Farooq not only excelled in his professional life but rendered invaluable services to society. As a member of the Press Council of Bangladesh during 1998 – 2001, he played a dynamic role in the process of reforming Media Law in Bangladesh. His continuous commitment towards poverty alleviation and social work through the international charity and service organization ROTARY was acknowledged by his election to the prestigious position of Governor of ROTARY in Bangladesh.</p>
+                
+            </div>
           </div>
         </div>
       </div>
@@ -201,7 +266,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="footer-widget pe-4">
+            <div class="footer-widget">
               <h3 class="footer-title">Main Office</h3>
               <div class="contact_us">
                 <ul class="list-unstyled">
@@ -231,7 +296,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="footer-widget px-5">
+            <div class="footer-widget ps-lg-5 pt-4 pt-lg-0">
               <h3 class="footer-title">Supreme Court Office</h3>
               <div class="contact_us">
                 <ul class="list-unstyled">
@@ -256,11 +321,11 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="footer-widget ps-5">
+            <div class="footer-widget ps-lg-5 pt-4 pt-lg-0">
               <h3 class="footer-title">Accessibility</h3>
               <p>There is step-free access to chambers from the ground floor.</p>
             </div>
-            <div class="footer-widget mt-4 ps-5">
+            <div class="footer-widget ps-lg-5 pt-4">
               <h3 class="footer-title">Legal</h3>
               <ul class="list-unstyled services">
                 <li><a href="#">Privacy Policy</a></li>

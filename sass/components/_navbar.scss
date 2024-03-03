@@ -3,9 +3,16 @@
 @import "../mixin/line-limit";
 
 
-.mobile-topbar {
-	// background-color: #ffffff;
-	z-index: 99999;
+.mobile-topbar, .search {
+	z-index: 99;
+}
+.sm-logo {
+	width: 40px;
+	z-index: 99;
+
+	img{
+		width: 100%;
+	}
 }
 
 .mobile-topbar .bars {
@@ -13,11 +20,19 @@ top: 100px;
 	left: 25px;
 }
 
+.search .bars i {
+	height: 40px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;
+	cursor: pointer;
+}
 .mobile-topbar .bars i {
 // width: 60px;
 	height: 40px;
 	// background-color: #e41b2e;
-	color: #000000;
+	color: #ffffff;
 	font-size: 25px;
 	text-align: center;
 	line-height: 40px;

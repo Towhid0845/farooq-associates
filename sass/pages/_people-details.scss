@@ -14,31 +14,26 @@
     padding: 0;
     background-color: transparent;
     flex: 0 0 auto;
-    margin-right: 45px;
 
     .img {
       border: 1px solid $primary;
-      max-width: 350px;
       padding: 15px;
       background-color: $white;
     }
+    
 
     .info {
-      margin-top: 30px;
-      border: 1px solid $border;
-      padding: 24px;
-      max-width: 350px;
 
       .contact_info {
         li {
           margin-bottom: 10px;
-
+  
           a {
             @include font(16px, 400);
             color: $black;
             display: flex;
             align-items: center;
-
+  
             i {
               width: 33px;
               height: 33px;
@@ -55,14 +50,13 @@
       }
 
       .info_item {
-        margin-top: 30px;
+        // margin-top: 30px;
         margin-bottom: 30px;
 
         .main_title {
-          @include font(34px, 700);
+          @include font(32px, 700);
           margin-bottom: 24px;
           border-bottom: 1px solid $border;
-          padding-bottom: 14px
         }
         .subtitle {
           @include font(16px, 500);

@@ -412,8 +412,16 @@ nav {
   height: 100px;
 }
 
-.mobile-topbar {
-  z-index: 99999;
+.mobile-topbar, .search {
+  z-index: 99;
+}
+
+.sm-logo {
+  width: 40px;
+  z-index: 99;
+}
+.sm-logo img {
+  width: 100%;
 }
 
 .mobile-topbar .bars {
@@ -421,9 +429,18 @@ nav {
   left: 25px;
 }
 
+.search .bars i {
+  height: 40px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 .mobile-topbar .bars i {
   height: 40px;
-  color: #000000;
+  color: #ffffff;
   font-size: 25px;
   text-align: center;
   line-height: 40px;
@@ -811,15 +828,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
   border: 4px solid rgba(0, 0, 0, 0);
 }
-.practice_area .area-wrapper .image .overly h3 span {
+.practice_area .area-wrapper .image .overly h3 p {
   font-family: "Roboto", sans-serif;
   font-size: 26px;
   font-weight: 400;
   position: relative;
+  color: #ffffff;
+  word-wrap: break-word;
+  word-break: break-word;
 }
-.practice_area .area-wrapper .image .overly h3 span::before {
+.practice_area .area-wrapper .image .overly h3 p::before {
   position: absolute;
   bottom: -30px;
   left: 50%;
@@ -941,6 +962,7 @@ nav {
   border: 1px solid #2b6cac;
   padding: 14px;
   background-color: #ffffff;
+  margin-bottom: 24px;
 }
 .founder_messages_area .text .title {
   font-size: 32px;
@@ -968,7 +990,7 @@ nav {
 
 .foreign_investment_area {
   padding: 60px 0;
-  background-color: #f2f2f2;
+  background-color: #f6f1e8;
   background-size: cover !important;
 }
 .foreign_investment_area .image {
@@ -1157,6 +1179,8 @@ nav {
 .breadcrumb_area {
   background-color: #2b6cac;
   padding: 130px 0 70px;
+  height: 285px;
+  background-position: center !important;
 }
 .breadcrumb_area .title {
   font-size: 40px;
@@ -1191,10 +1215,11 @@ nav {
 
 .area_2 {
   margin-top: 0;
+  background-color: #ffffff;
 }
 .area_2 .founder_main .image {
   float: left;
-  width: 290px;
+  margin-bottom: 24px;
   margin-right: 30px;
 }
 .area_2 .founder_main .text p + p {
@@ -1365,8 +1390,6 @@ nav {
   transform: scale(1.02);
 }
 .people_area .top_filter_options .people_main .people_item .text {
-  height: 240px;
-  padding: 35px 30px;
   display: flex;
   flex-direction: column;
 }
@@ -1419,19 +1442,11 @@ nav {
   padding: 0;
   background-color: transparent;
   flex: 0 0 auto;
-  margin-right: 45px;
 }
 .people_details .image .img {
   border: 1px solid #2b6cac;
-  max-width: 350px;
   padding: 15px;
   background-color: #ffffff;
-}
-.people_details .image .info {
-  margin-top: 30px;
-  border: 1px solid #ccc;
-  padding: 24px;
-  max-width: 350px;
 }
 .people_details .image .info .contact_info li {
   margin-bottom: 10px;
@@ -1455,15 +1470,13 @@ nav {
   margin-right: 20px;
 }
 .people_details .image .info .info_item {
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 .people_details .image .info .info_item .main_title {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 700;
   margin-bottom: 24px;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 14px;
 }
 .people_details .image .info .info_item .subtitle {
   font-size: 16px;
