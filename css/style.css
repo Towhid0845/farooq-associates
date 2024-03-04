@@ -1229,6 +1229,7 @@ nav {
 .people_area {
   padding-top: 80px;
   margin-top: 80px;
+  margin-bottom: -80px;
 }
 .people_area .entry-title {
   margin-bottom: 40px;

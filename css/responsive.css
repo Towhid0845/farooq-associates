@@ -13,6 +13,9 @@
   .project_details_area {
     padding-top: 60px;
   }
+  .practice_area_page .area-wrapper .image {
+    height: 330px;
+  }
   .people_area .top_filter_options .people_main .people_item .text {
     height: 230px;
     padding: 25px;
